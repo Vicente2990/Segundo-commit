@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FIZZBUZZ</title>
+</head>
+
+<body>
+
+    <div id="primero">
+        <h3>titulo 1</h3>
+        <p>primer parrafo</p>
+    </div>
+    <div id="segundo">
+            <h3>Titulo 2</h3>
+            <h3>Titulo 2</h3>
+            <h3>Titulo 2</h3>
+            <p>segundo parrafo</p>
+     </div>
+
+     <br>
+        <button id></button>
+
+    <script>
+
+        function clickButton(){
+            alert("clicj en el 1")
+        }
+        var button2 = document.querySelectorAll("button2")
+        button2.onclick = function(){
+            alert("click en el 2")
+        }
+        function mf() {
+            document.getElementById("check").click()
+        }
+
+        var button3 = document.querySelectorAll("button3")
+        button3.addEventListener("mouseover", function(){
+            alert("click en el 3")
+
+     setTimeout(() => {
+
+        document.getElementsByTagName("img")[0].width /=2
+        document.getElementsByTagName("img")[0].height /=2
+        // var object = document.querySelector("#segundo h3").style.color ="orange"
+        // var obj = document.querySelectorAll("#segundo")
+
+        // for (let i = 0; i < obj.length; i++) {
+        //     obj[i].style.color = "red"
+        //     console.log(obj)
+            document.getElementById("check").click()
+    }, 1000);
+
+
+         // setTimeout(() => {
+        //      var obj = document.getElementsByTagName("h1")
+        //      obj [1].innerText= "hola"
+        //      console.log(obj)
+
+        //      var obj1 = document.getElementById("miId")
+        //      obj1.innerText = "hh"
+        //      obj1.innerHTML = "<spam style='color: red'>Texto</spam>"
+        //      console.log(obj)
+
+        //  }, 1000);
+
+
+        //  function nRamdon(min, max) {
+        //     return Math.floor(Math.random() * (max - min)) + min
+        // }
+
+        // var a = nRamdon(0, 15)
+        // var fizz = document.getElementsByClassName("class")
+        // var isFizz = a % 3 == 0
+        // var isBuzz = a % 5 == 0
+        // var resultado;
+
+        // if(isFizz && isBuzz){
+        //     resultado = a + "FIZZBUZZ"
+        // } else if(isFizz){
+        //     resultado =  a + "FIZZ";
+        // } else if(isBuzz){
+        //     resultado = a +  "BUZZ";
+        // } else {
+        //     resultado = a
+        // }    
+
+        // for (let index = 0; index < fizz.length; index++){
+        //     fizz[index].innerText = resultado
+        //}
+
+
+    // function nRamdon(min, max) {
+    //         return Math.floor(Math.random() * (max - min)) + min
+    //     }
+    //     var a = nRamdon(0, 15)
+    //     var fizz = document.getElementsByClassName("class")
+    //     var isFizz = a % 3 == 0
+    //     var isBuzz = a % 5 == 0
+    //     var resultado;
+    //     if(isFizz && isBuzz){
+    //         resultado = a + "FIZZBUZZ"
+    //     } else if(isFizz){
+    //         resultado =  a + "FIZZ";
+    //     } else if(isBuzz){
+    //         resultado = a +  "BUZZ";
+    //     } else {
+    //         resultado = a
+    //     }
+
+    //     for (let index = 0; index < fizz.length; index++) {
+    //         fizz[index].innerText = resultado
+    //     }
+
+    </script>
+
+    
+</body>
+</html>
